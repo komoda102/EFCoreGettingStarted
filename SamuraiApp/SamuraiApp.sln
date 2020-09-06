@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiApp.Domain", "SamuraiApp.Domain\SamuraiApp.Domain.csproj", "{A915E71E-55CA-4394-A0C2-609BEA11E857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiApp.Data", "SamuraiApp.Data\SamuraiApp.Data.csproj", "{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A915E71E-55CA-4394-A0C2-609BEA11E857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A915E71E-55CA-4394-A0C2-609BEA11E857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A915E71E-55CA-4394-A0C2-609BEA11E857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A915E71E-55CA-4394-A0C2-609BEA11E857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8210D435-1CC7-40CF-8C6A-DEFBB93F2C34}
+	EndGlobalSection
+EndGlobal
