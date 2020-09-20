@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiApp.Domain", "SamuraiApp.Domain\SamuraiApp.Domain.csproj", "{A915E71E-55CA-4394-A0C2-609BEA11E857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamuraiApp.Domain", "SamuraiApp.Domain\SamuraiApp.Domain.csproj", "{A915E71E-55CA-4394-A0C2-609BEA11E857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiApp.Data", "SamuraiApp.Data\SamuraiApp.Data.csproj", "{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamuraiApp.Data", "SamuraiApp.Data\SamuraiApp.Data.csproj", "{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{87A0940B-5A4B-4120-8657-E98AC9697869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationsExecApp", "MigrationsExecApp\MigrationsExecApp.csproj", "{797B587F-2698-486B-BE83-0FCE7B25B676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7AEC0A4-FF26-4A9D-8958-DB7EAD01086E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A0940B-5A4B-4120-8657-E98AC9697869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A0940B-5A4B-4120-8657-E98AC9697869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A0940B-5A4B-4120-8657-E98AC9697869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A0940B-5A4B-4120-8657-E98AC9697869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797B587F-2698-486B-BE83-0FCE7B25B676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797B587F-2698-486B-BE83-0FCE7B25B676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797B587F-2698-486B-BE83-0FCE7B25B676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797B587F-2698-486B-BE83-0FCE7B25B676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
