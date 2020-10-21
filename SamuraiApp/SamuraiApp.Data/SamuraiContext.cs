@@ -28,7 +28,8 @@ namespace SamuraiApp.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder
-                .UseLoggerFactory(ConsoleLoggerFactory).EnableSensitiveDataLogging()
+                .UseLoggerFactory(ConsoleLoggerFactory)
+                .EnableSensitiveDataLogging()
                 .UseSqlServer("Data Source = (local)\\SQLEXPRESS; Initial Catalog = SamuraiAppData; Trusted_Connection=True;");
         }
 
